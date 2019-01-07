@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-  </head>
+  {% include page-head.html %}
+
   <body>
-    {{ content }}
+    {% include header.html %}
+
+    {% include main.html %}
+
+    {% include footer.html %}
   </body>
 </html>

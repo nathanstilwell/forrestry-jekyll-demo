@@ -1,0 +1,22 @@
+main {
+  margin: 0 auto;
+  max-width: 50rem;
+  width: 80%;
+}
+
+header, footer {
+  border-width: 0;
+  border-color: $purple;
+  border-style: solid;
+  padding: 1rem 2rem;
+}
+
+header {
+  border-bottom-width: 1px;
+  margin-bottom: 3rem;
+}
+
+footer {
+  border-top-width: 1px;
+  margin-top: 3rem;
+}
