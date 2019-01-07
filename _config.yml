@@ -9,6 +9,7 @@ url: "https://nathanstilwell.com"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 defaults:
   -
