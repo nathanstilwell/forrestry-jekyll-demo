@@ -1,7 +1,6 @@
 ---
 title: page title
 date: 2019-01-07 20:09:27 +0000
-published: false
 
 ---
 # Installing Shopify Applications
