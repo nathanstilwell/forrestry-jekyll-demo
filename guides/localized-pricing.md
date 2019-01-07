@@ -21,7 +21,9 @@ To add the metafield data onto the page, store the metafield value JSON in an el
 {% endfor %}
 ```
 
+{% raw %}
 You can get the metafields from the product using `{% for localizedVariant in product.selected_or_first_available_variant.metafields.flow_variant %}`
+{% endraw %}
 
 flow.js will locate all `flow-localized-variant` elements on the page and cache the data so that it can be used to localize the rest of the elements on the page.
 
