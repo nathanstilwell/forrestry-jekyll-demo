@@ -20,7 +20,7 @@ Here we will cover the easiest option for end-to-end integration. After completi
 
 This will connect your store to Flow, allowing products to be synced. For each item, duties and taxes will be calculated and localized versions of the items will be created for each Experience defined in Flow. After all of the items are localized, Flow's service will push updates to Shopify as metafields on each product variant. The metafield will will contain pricing for all defined experiences.
 
-### 2. Add `flow.js` to your Shopify theme ([Guide](/forrestry-jekyll-demo/guides/shopify/shopify-flow-js-install))
+### 2. Add `flow.js` to your Shopify theme ([Guide](/forrestry-jekyll-demo/guides/shopify/flow-js))
 
 `flow.js` is the JavaScript library required for the front end of your store. It will enable localization, cart, and fraud functionality. On each page load, we will geolocate the user and pick the best experience (currency, usually) for the user based on where they are shopping from. With this added to the Shopify theme you can proceed with localizing the content and get the first test order placed. Also of note, flow.js has Beacon analytics built in, so there is no need to go through any additional installation process to take advantage of Beacon's API.
 
