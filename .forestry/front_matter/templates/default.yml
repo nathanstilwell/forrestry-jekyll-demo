@@ -8,3 +8,5 @@ fields:
   label: Page Title
   description: the title of the page
   default: page title
+pages:
+- guides/shopify/page-title.md
