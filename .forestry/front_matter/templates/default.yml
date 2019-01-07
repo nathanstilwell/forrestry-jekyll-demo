@@ -9,6 +9,4 @@ fields:
   description: the title of the page
   default: page title
 pages:
-- guides/shopify/shopify-app-install.md
-- guides/shopify/flow-js.md
 - guides/shopify/server-side-rendering.md
