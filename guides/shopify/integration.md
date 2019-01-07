@@ -16,7 +16,7 @@ When the Simple Integration steps are completed, see the `Other Enhancements` se
 
 Here we will cover the easiest option for end-to-end integration. After completing these steps, your Shopify store will have synced the product catalog with Flow and be able to display localized prices. International users will be able to add items to cart and check out using Flow's Checkout UI.
 
-### 1. Install the Flow Connect and Flow Checkout apps ([Guide](forrestry-jekyll-demo/guides/shopify/shopify-app-install))
+### 1. Install the Flow Connect and Flow Checkout apps ([Guide](/forrestry-jekyll-demo/guides/shopify/shopify-app-install "Guide"))
 
 This will connect your store to Flow, allowing products to be synced. For each item, duties and taxes will be calculated and localized versions of the items will be created for each Experience defined in Flow. After all of the items are localized, Flow's service will push updates to Shopify as metafields on each product variant. The metafield will will contain pricing for all defined experiences.
 
