@@ -51,7 +51,7 @@ Flow.js exposes itself in the global namespace as: `Flow`.
 
 Fraud monitoring is enabled by default. To disable it, remove the following line from the JavaScript tag.
 
-```JavaScript
+```javascript
 f[i].fraud = 'enabled';
 ```
 
@@ -59,7 +59,7 @@ f[i].fraud = 'enabled';
 
 By default flow.js will attempt to auto initialize itself. Sometimes there are exceptional situations, like race conditions with other JavaScript code, that make this not desirable. To manually initialize flow.js, add the following line immediately after the main script tag. This will allow you to call `Flow.init()` when you want to (see below for more details on how to call init).
 
-```JavaScript
+```javascript
 Flow.manualInit = true;
 ```
 
@@ -75,7 +75,7 @@ It's recommended that you run this towards the bottom of your HTML document, bef
 
 Immediately after the script above is executed, events can be subscribed to from flow.js. The most useful event is `ready`, which means flow.js is fully initialized and the functions defined in later sections of this document are available for use. This is achieved via `Flow.set`:
 
-```JavaScript
+```javascript
 Flow.set('on', 'ready', () => {
   if (Flow.getExperience()) {
     // User is global and should use Flow for localization and cart.
@@ -88,7 +88,7 @@ Flow.set('on', 'ready', () => {
 ### Optin Target
 By default when loading optin messages from the server, the messages will be appended to the body of the HTML document. To specify where in the DOM consent messages render add
 
-```Javascript
+```javascript
 Flow.optinTarget = ELEMENT_CSS_SELECTOR;
 ```
 
@@ -117,7 +117,7 @@ See below for further documentation on the capabilities of flow.js.
 
 Many of the functions listed above will take an `options` object. It contains the callback functions for any API calls that are made behind the scenes. The `success` and `error` props will be used to return the data from the API. The `status` parameter may be null if the data was cached and no API call was made.
 
-```JavaScript
+```javascript
 Flow.cart.getCart(options) {
   success: function (status, cart) {
     // status will usually be a 2xx value.
