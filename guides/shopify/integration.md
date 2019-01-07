@@ -1,12 +1,10 @@
 ---
-{
-  "default": "true",
-  "title": "Integration",
-  "position": 1
-}
+default: 'true'
+title: Integration
+position: 1
+
 ---
 # Shopify
-
 
 Flow offers a suite of services to enable the best shopping experience for global visitors of your store. As part of the integration you will localize pricing so that users can shop with a familiar currency and use a localized cart and checkout hosted by Flow. This allows you to maintain a single store that can support multiple currencies where you would otherwise have to create multiple stores using default Shopify settings. At the end of the `Simple Integration` steps you will have done the minimum amount of work to start accepting orders from customers.
 
@@ -18,7 +16,7 @@ When the Simple Integration steps are completed, see the `Other Enhancements` se
 
 Here we will cover the easiest option for end-to-end integration. After completing these steps, your Shopify store will have synced the product catalog with Flow and be able to display localized prices. International users will be able to add items to cart and check out using Flow's Checkout UI.
 
-### 1. Install the Flow Connect and Flow Checkout apps ([Guide](/shopify/guide/shopify-app-install))
+### 1. Install the Flow Connect and Flow Checkout apps ([Guide](forrestry-jekyll-demo/shopify/guide/shopify-app-install))
 
 This will connect your store to Flow, allowing products to be synced. For each item, duties and taxes will be calculated and localized versions of the items will be created for each Experience defined in Flow. After all of the items are localized, Flow's service will push updates to Shopify as metafields on each product variant. The metafield will will contain pricing for all defined experiences.
 
