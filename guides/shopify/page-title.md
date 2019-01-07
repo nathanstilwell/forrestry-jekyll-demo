@@ -1,5 +1,5 @@
 ---
-title: page title
+title: Shopify App Install
 date: 2019-01-07 20:09:27 +0000
 
 ---
