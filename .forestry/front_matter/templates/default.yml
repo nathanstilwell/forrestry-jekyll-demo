@@ -10,3 +10,4 @@ fields:
   default: page title
 pages:
 - guides/GNL Tao Te Ching/index.md
+- guides/GNL Tao Te Ching/part-1.md
