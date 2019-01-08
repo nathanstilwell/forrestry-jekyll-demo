@@ -69,3 +69,17 @@ function (people = {}, action) {
     Harmony = true;
   }
 ```
+
+## 十二 Substance
+
+Too    | much
+-------|------
+colour | blinds the eye
+music  | deafens the ear
+taste  | dulls the palate
+play   | maddens the mind
+desire | tears the heart
+
+In this manner the sage cares for people:
+He provides for the belly, not for the senses;
+He ignores abstraction and holds fast to substance.
