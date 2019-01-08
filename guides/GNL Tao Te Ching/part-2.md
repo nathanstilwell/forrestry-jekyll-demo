@@ -1,7 +1,6 @@
 ---
 title: Part 2
 date: 2019-01-08 19:03:01 +0000
-published: false
 
 ---
 # Part 2
