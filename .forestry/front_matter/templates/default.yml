@@ -8,7 +8,3 @@ fields:
   label: Page Title
   description: the title of the page
   default: page title
-pages:
-- guides/GNL Tao Te Ching/index.md
-- guides/GNL Tao Te Ching/part-1.md
-- guides/GNL Tao Te Ching/part-2.md
