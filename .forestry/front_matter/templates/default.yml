@@ -9,4 +9,5 @@ fields:
   description: the title of the page
   default: page title
 pages:
+- guides/gnl-tao-te-ching-part-1.md
 - guides/the-way.md
